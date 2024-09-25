@@ -1,0 +1,352 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.navb{
+    position: fixed;
+    background-color: white;
+    top:0;
+    left: 0;
+    right: 0;
+}
+
+div.location{
+    
+    display:flex;
+    margin-left: 395px;
+    font-size:14px;
+    font-family:"National 2 Regular";
+    margin-bottom: 5px;
+    
+    
+}
+.location img{
+    height: 15px;
+    width: 13px;
+    margin-right: 10px;
+    margin-top: 23px;
+}
+button.b1{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 12px;
+}
+.location h4 {
+    margin-top: 22px;
+
+}
+hr{
+    margin:0px;
+}
+div.navigation{
+    display:inline-flex;
+    margin: 0%;
+    margin-left: 150px;
+}
+.navigation img{
+    display: flex;
+}
+.menu h4{
+    margin-top: 35px;
+    margin-left: 70px;
+    
+
+}
+.deals h4{
+    margin-top: 35px;
+    margin-left: 70px;
+}
+.rightpart{
+    margin-left: 600px;
+    display: flex;
+    margin-top: -15px;
+
+}
+.rightpart img{
+    margin-top: 15px;
+    height: 25px;
+    margin-top: 5px;
+
+    
+}
+.img1{
+    margin-top: 42px;
+    display: flex;
+    height: 20px;
+}
+.img1 h4{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.img1 h1{
+    margin-left: 10px;
+    color: gray;
+
+}
+.img2{
+    margin-left: 10px;
+    display:inline-flex;
+}
+.img2 h4{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+.img2 img{
+    margin-left: 5px;
+    height: 45px;
+    margin-top: 40px;
+}
+.blackbar{
+    display: flex;
+    background-color: rgb(15, 15, 15);
+    color:white;
+    height: 70px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 140px;
+    width: 1550px;
+    
+    
+    
+
+}
+.lets{
+    margin-top: 25px;
+    font-weight: bolder;
+    font-size: 14px;
+    margin-left: -150px;
+}
+.blackbar h4{
+    
+    font-size: 20px;
+    font-weight: lighter;
+}
+.blackbar button{
+    background-color:rgb(243, 38, 38);
+    color: rgb(238, 229, 229);
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 15px;
+
+}.categories h1{
+    font-weight: 900;
+    margin-left: 100px;
+    margin-top: 90px;
+   
+}
+.categories hr{
+    width: 50%;
+    margin-left: 500px;
+    margin-top: -20px;
+    
+    
+}
+.menu1{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 100px 0px;
+    margin-left: 100px ;
+    margin-top: 100px;
+    width: 700px;
+    
+}
+.cont{
+    background-color: rgb(241, 243, 245);
+    margin-top: -5px;
+    width:250px;
+    height: 60px;
+    text-align: center;
+    margin-left: 20px;
+}
+.cont h4{
+    font-size: 14px;
+    width: 230px;
+    margin-left: -10px;
+    padding: 20px;
+    
+
+    
+}
+.menu1 img{
+    height: 200px;
+    width: 250px;
+    margin-left: 20px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+
+
+.exclusive{
+    background-color: rgb(31, 29, 29);
+    position: relative;
+    
+    color:aliceblue;
+    width: 1550px;
+    margin-top: 90px;
+    
+    
+}
+.box1{
+position: absolute;
+left: 50px;
+display: flex;
+margin-left: 90px;
+}
+.bar{
+    width: 15px;
+    height: 40px;
+    margin-right: 15px;
+    background-color: rgb(201, 34, 34);
+
+
+}
+
+.topper{
+    display: flex;
+    
+    
+    
+}
+.topper h1{
+    color: aliceblue;
+    margin-top: 0px;
+    margin-left: 140px;
+    margin-top: 120px;
+}
+.topper a{
+margin-left: 600px;
+margin-top: 120px;
+    
+    
+    
+    
+}
+.card2{
+   margin-top:150px;
+} 
+.card2 img{
+    height: 300px;
+    width:350px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.menu2{
+    display:flex;
+    gap: 30px;
+    margin-left: 100px;
+    
+    
+
+}
+.offertittle{
+    background-color: white;
+    width: 350px;
+    margin-top: -5px;
+    height: 150px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+}
+.offertittle h1{
+    color: rgb(216, 28, 28);
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+}
+.offertittle h4{
+    color: rgb(48, 46, 46);
+    text-align: center;
+    font-size: 14px;
+}
+.details{
+    margin-top: 10px;
+
+}
+.details a{
+    color: rgb(39, 38, 38);
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.details button{
+    width: 170px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: bolder;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.footer{
+    margin-top: 200px;
+    display: flex;
+    gap: 30px;
+    font-size: 14px;
+    margin-left: 160px;
+}
+.footer img{
+    margin-top: -70px;
+}
+.list p{
+    margin-top: 10px;
+}
+.rightpart2{
+    display:flex;
+    margin-top: 5px;
+    gap: 10px;
+}
+.rightpart2 a{
+    color: aliceblue;
+    margin-top: 5px;
+}
+.loction img{
+    margin-top: 5px;
+}
+    
+
+.play img{
+    width:100px;;
+    margin-left: 40px;
+    margin-top: 5px;
+    
+}
+  .bottom{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 20px;
+    
+    
+
+  }
+  .bottom h4{
+    margin-left:150px; 
+    font-size: 11px;
+    margin-top: 10px;
+  }
+  .social{
+    margin-left: 30px;
+    
+    
+  }
+
+
+
+
+
+
+    
